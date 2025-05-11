@@ -7,5 +7,5 @@ from param_mc_remote import block
 mc = Minecraft.create(address=param.ADRS_MCR, port=param.PORT_MCR)
 mc.setPlayer(param.PLAYER_NAME, PO.x, PO.y, PO.z)
 
-mc.postToChat("Hello, 作文書かないの？!!")
+mc.postToChat("Hello! world ")
 mc.setBlock(5, 68, 5, block.GOLD_BLOCK)
